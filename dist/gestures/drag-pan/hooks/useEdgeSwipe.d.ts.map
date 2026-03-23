@@ -1,1 +1,0 @@
-{"version":3,"file":"useEdgeSwipe.d.ts","sourceRoot":"","sources":["../../../../src/gestures/drag-pan/hooks/useEdgeSwipe.ts"],"names":[],"mappings":"AAAA;;GAEG;AAIH,MAAM,WAAW,mBAAmB;IAClC,OAAO,CAAC,EAAE,OAAO,CAAC;IAClB,CAAC,GAAG,EAAE,MAAM,GAAG,GAAG,CAAC;CACpB;AAED,wBAAgB,YAAY,CAAC,OAAO,GAAE,mBAAwB;;EAM7D"}

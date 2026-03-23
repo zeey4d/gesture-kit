@@ -51,19 +51,34 @@ The library is organized into comprehensive gesture categories designed for both
 
 ## Installation
 
+The Gesture Kit library is now modular! This means you only install the specific gestures you need, keeping your app bundle small. 
+
+### 1. Install the Core (Required)
+First, you must install the `gesture-kit-core` package along with the peer-dependency `react-native-gesture-handler`:
+
 ```bash
-npm install react-native-gesture-kit react-native-gesture-handler
+npm install gesture-kit-core react-native-gesture-handler
 ```
 
-> **Note**: [`react-native-gesture-handler`](https://docs.swmansion.com/react-native-gesture-handler/docs/fundamentals/installation) is a required peer dependency. Follow its installation guide if not already configured in your project.
+> **Note**: [`react-native-gesture-handler`](https://docs.swmansion.com/react-native-gesture-handler/docs/fundamentals/installation) requires additional native setup. Follow its installation guide if not already configured in your project.
+
+### 2. Install Specific Gesture Packages
+Next, cherry-pick the exact gesture categories you want to use. For example, if you only need Tap gestures and Drawing gestures:
+
+```bash
+npm install gesture-kit-basic-touch gesture-kit-drawing
+```
+
+*(See the [Supported Gesture Categories](#supported-gesture-categories) section for the full list of packages).*
 
 ## Quick Start
 
-Wrap your app root with `GestureHandlerRootView`, then use any gesture component:
+Wrap your app root with `GestureHandlerRootView`, then import components from their specific packages:
 
 ```tsx
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import { TapGesture } from 'react-native-gesture-kit';
+// Import the component from its specific package
+import { TapGesture } from 'gesture-kit-basic-touch';
 
 function App() {
   return (
@@ -182,10 +197,10 @@ Detects force/3D touch pressure.
 
 ## Gesture Composer
 
-The `<Gesture>` component (alias for `GestureComposer`) lets you combine multiple gestures on a single view with a declarative API:
+The `<Gesture>` component (alias for `GestureComposer`) from `gesture-kit-core` lets you combine multiple gestures on a single view with a declarative API:
 
 ```tsx
-import { Gesture } from 'react-native-gesture-kit';
+import { GestureComposer as Gesture } from 'gesture-kit-core';
 
 <Gesture
   tap
@@ -248,7 +263,7 @@ For headless gesture usage where you need full control over the `GestureDetector
 
 ```tsx
 import { GestureDetector } from 'react-native-gesture-handler';
-import { useTap, useDoubleTap, useLongPress } from 'react-native-gesture-kit';
+import { useTap, useDoubleTap, useLongPress } from 'gesture-kit-basic-touch';
 
 function MyComponent() {
   const tapGesture = useTap({
@@ -283,10 +298,10 @@ function MyComponent() {
 
 ## Custom Gestures
 
-Create reusable gesture components using the factory function:
+Create reusable gesture components using the factory function from the core package:
 
 ```tsx
-import { createGestureComponent } from 'react-native-gesture-kit';
+import { createGestureComponent } from 'gesture-kit-core';
 import { Gesture } from 'react-native-gesture-handler';
 
 interface TripleTapProps {
@@ -316,7 +331,7 @@ const TripleTapGesture = createGestureComponent<TripleTapProps>({
 ### Direction Detection
 
 ```tsx
-import { detectSwipeDirection, matchesDirection, magnitude } from 'react-native-gesture-kit';
+import { detectSwipeDirection, matchesDirection, magnitude } from 'gesture-kit-core';
 
 const direction = detectSwipeDirection(translationX, translationY, velocityX, velocityY);
 // => 'left' | 'right' | 'up' | 'down'
@@ -331,7 +346,7 @@ const speed = magnitude(velocityX, velocityY);
 ### Gesture Composition
 
 ```tsx
-import { composeGestures } from 'react-native-gesture-kit';
+import { composeGestures } from 'gesture-kit-core';
 
 const composed = composeGestures([tapGesture, panGesture], 'simultaneous');
 ```
@@ -369,28 +384,24 @@ import type {
   FlingDirection,
   GesturePriority,
   GestureState,
-} from 'react-native-gesture-kit';
+} from 'gesture-kit-core';
 ```
 
 ---
 
-## Folder Structure
+## Monorepo Structure
+
+This project uses an npm workspaces monorepo architecture:
 
 ```
-src/
-├── index.ts                # Public API barrel export
-├── types/
-│   └── gestures.ts         # All TypeScript interfaces & enums
-├── core/
-│   ├── GestureComposer.tsx # <Gesture> multi-gesture composer
-│   └── createGestureComponent.tsx  # Factory for custom gesture components
-├── gestures/
-│   └── basic-touch/        # Tap, DoubleTap, LongPress, and more
-│       ├── *.tsx           # Gesture components
-│       └── hooks/          # Corresponding hooks
-└── utils/
-    ├── direction.ts        # Swipe direction detection
-    └── compose.ts          # Gesture composition (Simultaneous/Exclusive/Race)
+packages/
+├── gesture-kit-core/             # Shared types, GestureComposer, utilities
+├── gesture-kit-basic-touch/      # Tap, DoubleTap, LongPress, etc.
+├── gesture-kit-drag-pan/         # Swipes, panning, dragging
+├── gesture-kit-transform/        # Pinch, rotate, stretch
+├── gesture-kit-sensor/           # Device motion tracking
+├── gesture-kit-hybrid/           # Touches + Sensors/Camera
+└── ... (and many more modular gesture packages)
 ```
 
 ---

@@ -1,1 +1,0 @@
-{"version":3,"file":"types.d.ts","sourceRoot":"","sources":["../../../src/gestures/proximity/types.ts"],"names":[],"mappings":"AAAA;;GAEG;AAEH,OAAO,KAAK,EAAE,gBAAgB,EAAE,MAAM,aAAa,CAAC;AAEpD,MAAM,WAAW,cAAe,SAAQ,gBAAgB;IACtD,QAAQ,EAAE,MAAM,CAAC;IACjB,MAAM,EAAE,OAAO,CAAC;CACjB;AAED,MAAM,WAAW,UAAW,SAAQ,gBAAgB;IAClD,QAAQ,EAAE,MAAM,CAAC;IACjB,QAAQ,EAAE,MAAM,CAAC;CAClB"}

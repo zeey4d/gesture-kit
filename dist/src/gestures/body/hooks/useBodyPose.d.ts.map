@@ -1,1 +1,0 @@
-{"version":3,"file":"useBodyPose.d.ts","sourceRoot":"","sources":["../../../../../src/gestures/body/hooks/useBodyPose.ts"],"names":[],"mappings":"AAAA;;GAEG;AAIH,MAAM,WAAW,kBAAkB;IACjC,OAAO,CAAC,EAAE,OAAO,CAAC;IAClB,CAAC,GAAG,EAAE,MAAM,GAAG,GAAG,CAAC;CACpB;AAED,wBAAgB,WAAW,CAAC,OAAO,GAAE,kBAAuB;;EAM3D"}

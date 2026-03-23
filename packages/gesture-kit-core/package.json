@@ -1,0 +1,32 @@
+{
+  "name": "gesture-kit-core",
+  "version": "1.0.0",
+  "description": "Core types, utilities, and composition for gesture-kit",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.71.0",
+    "react-native-gesture-handler": ">=2.10.0"
+  },
+  "peerDependenciesMeta": {
+    "react-native-reanimated": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "react": "^18.2.0",
+    "react-native": "^0.73.11",
+    "react-native-gesture-handler": "^2.30.0",
+    "typescript": "^5.9.3"
+  },
+  "keywords": ["react-native", "gesture", "core", "types"],
+  "license": "MIT"
+}
