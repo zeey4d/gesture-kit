@@ -1,0 +1,1 @@
+{"version":3,"file":"useThreeFingerTap.d.ts","sourceRoot":"","sources":["../../../../src/gestures/multi-finger/hooks/useThreeFingerTap.ts"],"names":[],"mappings":"AAAA;;GAEG;AAIH,MAAM,WAAW,wBAAwB;IACvC,OAAO,CAAC,EAAE,OAAO,CAAC;IAClB,CAAC,GAAG,EAAE,MAAM,GAAG,GAAG,CAAC;CACpB;AAED,wBAAgB,iBAAiB,CAAC,OAAO,GAAE,wBAA6B;;EAMvE"}

@@ -1,0 +1,20 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.useFingerGather = exports.useFingerSpread = exports.useMultiFingerDrag = exports.useThreeFingerSwipe = exports.useTwoFingerSwipe = exports.useFourFingerTap = exports.useThreeFingerTap = exports.useTwoFingerTap = void 0;
+var useTwoFingerTap_1 = require("./useTwoFingerTap");
+Object.defineProperty(exports, "useTwoFingerTap", { enumerable: true, get: function () { return useTwoFingerTap_1.useTwoFingerTap; } });
+var useThreeFingerTap_1 = require("./useThreeFingerTap");
+Object.defineProperty(exports, "useThreeFingerTap", { enumerable: true, get: function () { return useThreeFingerTap_1.useThreeFingerTap; } });
+var useFourFingerTap_1 = require("./useFourFingerTap");
+Object.defineProperty(exports, "useFourFingerTap", { enumerable: true, get: function () { return useFourFingerTap_1.useFourFingerTap; } });
+var useTwoFingerSwipe_1 = require("./useTwoFingerSwipe");
+Object.defineProperty(exports, "useTwoFingerSwipe", { enumerable: true, get: function () { return useTwoFingerSwipe_1.useTwoFingerSwipe; } });
+var useThreeFingerSwipe_1 = require("./useThreeFingerSwipe");
+Object.defineProperty(exports, "useThreeFingerSwipe", { enumerable: true, get: function () { return useThreeFingerSwipe_1.useThreeFingerSwipe; } });
+var useMultiFingerDrag_1 = require("./useMultiFingerDrag");
+Object.defineProperty(exports, "useMultiFingerDrag", { enumerable: true, get: function () { return useMultiFingerDrag_1.useMultiFingerDrag; } });
+var useFingerSpread_1 = require("./useFingerSpread");
+Object.defineProperty(exports, "useFingerSpread", { enumerable: true, get: function () { return useFingerSpread_1.useFingerSpread; } });
+var useFingerGather_1 = require("./useFingerGather");
+Object.defineProperty(exports, "useFingerGather", { enumerable: true, get: function () { return useFingerGather_1.useFingerGather; } });
+//# sourceMappingURL=index.js.map

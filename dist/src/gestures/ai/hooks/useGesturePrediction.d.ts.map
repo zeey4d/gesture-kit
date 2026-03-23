@@ -1,0 +1,1 @@
+{"version":3,"file":"useGesturePrediction.d.ts","sourceRoot":"","sources":["../../../../../src/gestures/ai/hooks/useGesturePrediction.ts"],"names":[],"mappings":"AAAA;;GAEG;AAIH,MAAM,WAAW,2BAA2B;IAC1C,OAAO,CAAC,EAAE,OAAO,CAAC;IAClB,CAAC,GAAG,EAAE,MAAM,GAAG,GAAG,CAAC;CACpB;AAED,wBAAgB,oBAAoB,CAAC,OAAO,GAAE,2BAAgC;;EAM7E"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"useSwipeUp.d.ts","sourceRoot":"","sources":["../../../../src/gestures/drag-pan/hooks/useSwipeUp.ts"],"names":[],"mappings":"AAAA;;GAEG;AAIH,MAAM,WAAW,iBAAiB;IAChC,OAAO,CAAC,EAAE,OAAO,CAAC;IAClB,CAAC,GAAG,EAAE,MAAM,GAAG,GAAG,CAAC;CACpB;AAED,wBAAgB,UAAU,CAAC,OAAO,GAAE,iBAAsB;;EAMzD"}

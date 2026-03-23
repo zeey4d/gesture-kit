@@ -1,0 +1,1 @@
+{"version":3,"file":"useSwipeRight.d.ts","sourceRoot":"","sources":["../../../../../src/gestures/drag-pan/hooks/useSwipeRight.ts"],"names":[],"mappings":"AAAA;;GAEG;AAIH,MAAM,WAAW,oBAAoB;IACnC,OAAO,CAAC,EAAE,OAAO,CAAC;IAClB,CAAC,GAAG,EAAE,MAAM,GAAG,GAAG,CAAC;CACpB;AAED,wBAAgB,aAAa,CAAC,OAAO,GAAE,oBAAyB;;EAM/D"}

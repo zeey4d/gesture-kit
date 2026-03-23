@@ -1,0 +1,1 @@
+{"version":3,"file":"useSwipeRotate.d.ts","sourceRoot":"","sources":["../../../../src/gestures/sequences/hooks/useSwipeRotate.ts"],"names":[],"mappings":"AAAA;;GAEG;AAIH,MAAM,WAAW,qBAAqB;IACpC,OAAO,CAAC,EAAE,OAAO,CAAC;IAClB,CAAC,GAAG,EAAE,MAAM,GAAG,GAAG,CAAC;CACpB;AAED,wBAAgB,cAAc,CAAC,OAAO,GAAE,qBAA0B;;EAMjE"}

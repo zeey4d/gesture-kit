@@ -1,0 +1,1 @@
+{"version":3,"file":"useMultiAxisTilt.d.ts","sourceRoot":"","sources":["../../../../../src/gestures/sensor/hooks/useMultiAxisTilt.ts"],"names":[],"mappings":"AAAA;;GAEG;AAIH,MAAM,WAAW,uBAAuB;IACtC,OAAO,CAAC,EAAE,OAAO,CAAC;IAClB,CAAC,GAAG,EAAE,MAAM,GAAG,GAAG,CAAC;CACpB;AAED,wBAAgB,gBAAgB,CAAC,OAAO,GAAE,uBAA4B;;EAMrE"}

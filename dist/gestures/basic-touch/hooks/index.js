@@ -1,0 +1,22 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.usePressForce = exports.useTapCancel = exports.useTapAndHold = exports.useVeryLongPress = exports.useLongPress = exports.useQuadTap = exports.useTripleTap = exports.useDoubleTap = exports.useTap = void 0;
+var useTap_1 = require("./useTap");
+Object.defineProperty(exports, "useTap", { enumerable: true, get: function () { return useTap_1.useTap; } });
+var useDoubleTap_1 = require("./useDoubleTap");
+Object.defineProperty(exports, "useDoubleTap", { enumerable: true, get: function () { return useDoubleTap_1.useDoubleTap; } });
+var useTripleTap_1 = require("./useTripleTap");
+Object.defineProperty(exports, "useTripleTap", { enumerable: true, get: function () { return useTripleTap_1.useTripleTap; } });
+var useQuadTap_1 = require("./useQuadTap");
+Object.defineProperty(exports, "useQuadTap", { enumerable: true, get: function () { return useQuadTap_1.useQuadTap; } });
+var useLongPress_1 = require("./useLongPress");
+Object.defineProperty(exports, "useLongPress", { enumerable: true, get: function () { return useLongPress_1.useLongPress; } });
+var useVeryLongPress_1 = require("./useVeryLongPress");
+Object.defineProperty(exports, "useVeryLongPress", { enumerable: true, get: function () { return useVeryLongPress_1.useVeryLongPress; } });
+var useTapAndHold_1 = require("./useTapAndHold");
+Object.defineProperty(exports, "useTapAndHold", { enumerable: true, get: function () { return useTapAndHold_1.useTapAndHold; } });
+var useTapCancel_1 = require("./useTapCancel");
+Object.defineProperty(exports, "useTapCancel", { enumerable: true, get: function () { return useTapCancel_1.useTapCancel; } });
+var usePressForce_1 = require("./usePressForce");
+Object.defineProperty(exports, "usePressForce", { enumerable: true, get: function () { return usePressForce_1.usePressForce; } });
+//# sourceMappingURL=index.js.map

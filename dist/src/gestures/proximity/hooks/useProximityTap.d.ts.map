@@ -1,0 +1,1 @@
+{"version":3,"file":"useProximityTap.d.ts","sourceRoot":"","sources":["../../../../../src/gestures/proximity/hooks/useProximityTap.ts"],"names":[],"mappings":"AAAA;;GAEG;AAIH,MAAM,WAAW,sBAAsB;IACrC,OAAO,CAAC,EAAE,OAAO,CAAC;IAClB,CAAC,GAAG,EAAE,MAAM,GAAG,GAAG,CAAC;CACpB;AAED,wBAAgB,eAAe,CAAC,OAAO,GAAE,sBAA2B;;EAMnE"}

@@ -1,0 +1,8 @@
+src/
+tsconfig.json
+examples/
+.eslintrc*
+.prettierrc
+__tests__/
+*.tsbuildinfo
+node_modules/
