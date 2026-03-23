@@ -2,7 +2,7 @@
 import { useMemo } from 'react';
 import { Gesture } from 'react-native-gesture-handler';
 import type { UseVeryLongPressOptions } from 'gesture-kit-core';
-import type { LongPressEvent } from '../../../types';
+import type { LongPressEvent } from 'gesture-kit-core';
 
 export function useVeryLongPress(options: UseVeryLongPressOptions) {
   const { onVeryLongPress, onPressIn, onPressOut, minDuration = 1500, maxDistance, enabled = true } = options;

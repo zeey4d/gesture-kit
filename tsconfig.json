@@ -24,6 +24,6 @@
       "react-native-gesture-kit": ["./src/index"]
     }
   },
-  "include": ["src"],
+  "files": [],
   "exclude": ["node_modules", "dist"]
 }

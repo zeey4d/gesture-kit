@@ -2,7 +2,7 @@
 import { useMemo } from 'react';
 import { Gesture } from 'react-native-gesture-handler';
 import type { UseTripleTapOptions } from 'gesture-kit-core';
-import type { TapEvent } from '../../../types';
+import type { TapEvent } from 'gesture-kit-core';
 
 export function useTripleTap(options: UseTripleTapOptions) {
   const { onTripleTap, maxDelay, maxDistance, enabled = true } = options;

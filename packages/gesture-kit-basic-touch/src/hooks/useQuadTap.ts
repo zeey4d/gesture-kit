@@ -2,7 +2,7 @@
 import { useMemo } from 'react';
 import { Gesture } from 'react-native-gesture-handler';
 import type { UseQuadTapOptions } from 'gesture-kit-core';
-import type { TapEvent } from '../../../types';
+import type { TapEvent } from 'gesture-kit-core';
 
 export function useQuadTap(options: UseQuadTapOptions) {
   const { onQuadTap, maxDelay, maxDistance, enabled = true } = options;

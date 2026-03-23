@@ -2,7 +2,7 @@
 import { useMemo } from 'react';
 import { Gesture } from 'react-native-gesture-handler';
 import type { UseTapAndHoldOptions } from 'gesture-kit-core';
-import type { LongPressEvent, TapEvent } from '../../../types';
+import type { LongPressEvent, TapEvent } from 'gesture-kit-core';
 
 export function useTapAndHold(options: UseTapAndHoldOptions) {
   const { onTapAndHold, onTap, holdDuration = 500, enabled = true } = options;

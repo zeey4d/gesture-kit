@@ -1,7 +1,7 @@
 /** useTap — Hook that returns a configured Tap gesture. */
 import { useMemo } from 'react';
 import { Gesture } from 'react-native-gesture-handler';
-import type { UseTapOptions, TapEvent } from '../../../types';
+import type { UseTapOptions, TapEvent } from 'gesture-kit-core';
 
 export function useTap(options: UseTapOptions) {
   const { onTap, numberOfTaps = 1, maxDuration, maxDistance, enabled = true } = options;

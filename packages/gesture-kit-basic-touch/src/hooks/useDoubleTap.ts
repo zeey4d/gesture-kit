@@ -1,7 +1,7 @@
 /** useDoubleTap — Hook that returns a configured DoubleTap gesture. */
 import { useMemo } from 'react';
 import { Gesture } from 'react-native-gesture-handler';
-import type { UseDoubleTapOptions, TapEvent } from '../../../types';
+import type { UseDoubleTapOptions, TapEvent } from 'gesture-kit-core';
 
 export function useDoubleTap(options: UseDoubleTapOptions) {
   const { onDoubleTap, maxDelay, maxDistance, enabled = true } = options;

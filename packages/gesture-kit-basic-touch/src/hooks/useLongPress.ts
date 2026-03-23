@@ -1,7 +1,7 @@
 /** useLongPress — Hook that returns a configured LongPress gesture. */
 import { useMemo } from 'react';
 import { Gesture } from 'react-native-gesture-handler';
-import type { UseLongPressOptions, LongPressEvent } from '../../../types';
+import type { UseLongPressOptions, LongPressEvent } from 'gesture-kit-core';
 
 export function useLongPress(options: UseLongPressOptions) {
   const { onLongPress, onPressIn, onPressOut, minDuration = 500, maxDistance, enabled = true } = options;

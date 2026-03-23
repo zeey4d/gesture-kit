@@ -1,6 +1,10 @@
 {
   "name": "react-native-gesture-kit",
   "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "description": "A modern, declarative gesture component library for React Native",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,9 +13,9 @@
     "README.md"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "npm run build --workspaces --if-present",
     "prepare": "npm run build",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "npm run typecheck --workspaces --if-present"
   },
   "keywords": [
     "react-native",

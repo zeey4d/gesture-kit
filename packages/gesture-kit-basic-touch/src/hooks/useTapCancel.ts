@@ -2,7 +2,7 @@
 import { useMemo } from 'react';
 import { Gesture } from 'react-native-gesture-handler';
 import type { UseTapCancelOptions } from 'gesture-kit-core';
-import type { BaseGestureEvent } from '../../../types';
+import type { BaseGestureEvent } from 'gesture-kit-core';
 
 export function useTapCancel(options: UseTapCancelOptions) {
   const { onTapCancel, onTapStart, maxDuration, enabled = true } = options;
