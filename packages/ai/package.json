@@ -1,0 +1,17 @@
+{
+  "name": "@gesture-kit/ai",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts"
+  },
+  "dependencies": {
+    "@gesture-kit/core": "^1.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.71.0",
+    "react-native-gesture-handler": ">=2.10.0"
+  }
+}
