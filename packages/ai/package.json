@@ -13,5 +13,8 @@
     "react": ">=18.0.0",
     "react-native": ">=0.71.0",
     "react-native-gesture-handler": ">=2.10.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
