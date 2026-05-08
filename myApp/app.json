@@ -10,10 +10,10 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.mo.myapp"
+      "bundleIdentifier": "com.wing.myapp"
     },
     "android": {
-      "package": "com.mo.myapp",
+      "package": "com.wing.myapp",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",

@@ -56,9 +56,9 @@ A sophisticated near-field detection system designed for touchless interactions.
 ## 🛠️ Project Structure
 
 - `app/index.tsx`: Main Dashboard entry.
-- `components/moharm/MoharamDrawing.tsx`: Drawing implementation.
-- `components/moharm/MoharamProximity.tsx`: Proximity implementation.
-- `components/moharm/MoharamTheme.ts`: Centralized Design System tokens.
+- `components/drawing/DrawingDashboard.tsx`: Drawing implementation.
+- `components/proximity/ProximityDashboard.tsx`: Proximity implementation.
+- `components/core/Theme.ts`: Centralized Design System tokens.
 
 ## ⚖️ Performance Rules
 1. **Always use Worklets:** Never run visual logic on the JS thread.
@@ -67,4 +67,4 @@ A sophisticated near-field detection system designed for touchless interactions.
 
 ---
 
-© 2026 Moharam Pro Wing. Created for High-Performance React Native Applications.
+© 2026 Pro Wing. Created for High-Performance React Native Applications.
